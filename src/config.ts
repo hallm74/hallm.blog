@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "http://hallm.netlify.app/", // replace this with your deployed domain
+  website: "https://hallm.netlify.app/", // replace this with your deployed domain
   author: "Marion Hall",
   profile: "http://hallm.netlify.app/about",
   desc: "Tech Musings from a Curious Mind",
