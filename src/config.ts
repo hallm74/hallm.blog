@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  website: "http://hallm.netlify.app", // replace this with your deployed domain
+  author: "Marion Hall",
+  profile: "http://hallm.netlify.app/about",
+  desc: "Tech Musings from a Curious Mind",
   title: "hallm",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
@@ -34,7 +34,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/hallm74",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -42,17 +42,17 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.instagram.com/hallm/",
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.linkedin.com/in/satcom/",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
