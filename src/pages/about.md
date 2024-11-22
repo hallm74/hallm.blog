@@ -3,34 +3,14 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Welcome! I’m hallm — an IT Consultant, Small Business Owner, and Web Developer with over two decades of experience in the dynamic field of Information Technology.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Throughout my career, I’ve been dedicated to helping businesses harness the power of technology to achieve their goals. From streamlining IT operations to crafting user-friendly web applications, I thrive on turning complex challenges into elegant solutions. My expertise spans a wide range of technologies, and I’m passionate about sharing insights that empower others to succeed in the digital age.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+As a small business owner, I understand the unique demands of entrepreneurship. That’s why I bring a hands-on, practical approach to everything I do, whether it’s developing web projects or providing tailored IT strategies to my clients.
 
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+This blog is a space where I share my knowledge, ideas, and the occasional glimpse into the projects I’m passionate about. If you’re here to learn, collaborate, or get inspired, I hope you’ll find something that resonates with you.

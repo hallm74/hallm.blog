@@ -12,11 +12,11 @@ export const SITE: Site = {
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
-  editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
-    text: "Suggest Changes",
-    appendFilePath: true,
-  },
+  // editPost: {
+  //  url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+  //  text: "Suggest Changes",
+  //  appendFilePath: true,
+  // },
 };
 
 export const LOCALE = {
@@ -58,15 +58,15 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:hallm@1satcom.com",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    active: true,
   },
   {
     name: "X",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://x.com/hallm",
     linkTitle: `${SITE.title} on X`,
-    active: false,
+    active: true,
   },
   {
     name: "Twitch",
@@ -142,9 +142,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Telegram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://t.me/hallm74",
     linkTitle: `${SITE.title} on Telegram`,
-    active: false,
+    active: true,
   },
   {
     name: "Mastodon",
