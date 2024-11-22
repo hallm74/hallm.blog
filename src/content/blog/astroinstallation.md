@@ -7,6 +7,7 @@ draft: false
 tags:
   - programming
   - astro
+ogImage: ../../assets/images/astroinitialsetup.png
 description:
   Brief introduction to setting up Node.js and installing Astro
 ---
