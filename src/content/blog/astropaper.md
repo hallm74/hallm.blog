@@ -27,6 +27,7 @@ Navigate into the directory you created using cd, then run npm install. In my in
 ```bash
 cd dark-dwarf
 npm install
+npm audit fix
 npm run dev
 ```
 ## Adding Content and customizations
