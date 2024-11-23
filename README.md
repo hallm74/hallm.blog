@@ -1,4 +1,8 @@
-# AstroPaper 📄
+# hallm.blog 📄
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b2c64bf-34b9-4ecb-9db8-206fb3a4d007/deploy-status)](https://app.netlify.com/sites/hallm/deploys)
+
+Based on Astropaper template, using Astro and hosted in Netlify
 
 ![AstroPaper](public/astropaper-og.jpg)
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1356898632249991861)
