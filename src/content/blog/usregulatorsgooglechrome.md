@@ -15,6 +15,7 @@ description:
 I don’t fully understand the government’s reasoning on this. While Chrome has been dominant in recent years, its position is increasingly challenged by other browsers on all operating systems except Android. With the growing integration of AI into browsers, Google’s dominance is likely to face even more competition moving forward. While I acknowledge Google’s significant influence in the browser market, it seems the ideal time to address this issue was several years ago, not now.
 
 Also, there isn't any way this takes place before Trump takes office and he's already indicated that he might not break up the company.
+
 ## Table of Contents
 
 ## Quotes
