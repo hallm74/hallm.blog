@@ -6,6 +6,7 @@ featured: true
 draft: false
 tags:
     - news
+    - technology
 ogImage: https://static01.nyt.com/images/2024/11/25/world/00xp-scammers-top-sub/00xp-scammers-top-sub-superJumbo.jpg?quality=75&auto=webp
 description: Daisy Harris, an A.I.-generated English granny, has been stymying scammers with meandering, time-wasting conversations. But can she actually make a dent in the flood of fraud?
 ---
