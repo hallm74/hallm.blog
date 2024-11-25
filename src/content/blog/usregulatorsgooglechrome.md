@@ -8,6 +8,7 @@ slug: us-regulators-google-chrome
 tags:
   - technology
   - google
+  - news
 ogImage: ../../assets/images/chrome-3729545_1280.jpg
 description:
  US regulators seek to break up Google, forcing Chrome sale as part of monopoly punishment.  Will Trump let it happen?

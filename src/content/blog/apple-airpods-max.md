@@ -7,6 +7,7 @@ draft: false
 tags: 
     - apple
     - technology
+    - news
 ogImage: https://f005.backblazeb2.com/file/hallm-blog/airpodmax.jpg
 description: 
     According to Mark Gurman’s latest Power On newsletter, Apple has no ‘meaningful’ plans to refresh AirPods Max after the introduction of the USB-C model earlier this year. 
