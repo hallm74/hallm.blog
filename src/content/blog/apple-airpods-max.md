@@ -2,7 +2,7 @@
 author: hallm
 pubDatetime: 2024-11-25T15:22:00Z
 title: Apple Has No ‘Meaningful’ AirPods Max Plans After USB-C Refresh
-featured: true
+featured: false
 draft: false
 tags: 
     - apple

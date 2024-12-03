@@ -2,7 +2,7 @@
 author: hallm
 pubDatetime: 2024-11-24T19:05:00Z
 title: Should Google be forced to sell Chrome?
-featured: true
+featured: false
 draft: false
 slug: us-regulators-google-chrome
 tags:

@@ -2,7 +2,7 @@
 author: hallm
 pubDatetime: 2024-11-24T23:37:00Z
 title: Cost Rica's Anytime Meal - Gallo Pinto
-featured: true
+featured: false
 draft: false
 tags:
   - recipes

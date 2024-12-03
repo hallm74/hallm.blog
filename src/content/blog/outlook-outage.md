@@ -2,7 +2,7 @@
 author: hallm
 pubDatetime: 2024-11-25T14:54:56
 title: Is Outlook down? Thousands of Microsoft 365 users report outage issues | AP News
-featured: true
+featured: false
 draft: false
 ogImage: https://dims.apnews.com/dims4/default/4b20b5b/2147483647/strip/true/crop/3000x1999+0+43/resize/980x653!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fce%2F6c%2F5b25a0afc30b6be5fa87c2d76e29%2Fb10dbc1be9414283881b1d4ae3a0c049
 tags: 

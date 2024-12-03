@@ -2,7 +2,7 @@
 author: hallm
 pubDatetime: 2024-11-25T14:51:03
 title: An A.I. Granny Is Phone Scammers’ Worst Nightmare - The New York Times
-featured: true
+featured: false
 draft: false
 tags:
     - news
