@@ -18,8 +18,6 @@ Since I started working with Jekyll and now Astro, I’ve explored various CMS o
 
 One important note about my workflow: I typically begin by capturing blog posts or sharing external links, like news stories, using Drafts. Drafts formats the front matter for me, which I then copy into VSCode to create the post. From there, I focus on styling the content and adding code blocks in VSCode, where I can save and preview changes in real time.
 
-I've attached the link to the Drafts Action Group to the bottom of the post.
-
 `This is an ongoing project, and I plan to maintain all updates in this post.`
 
 ## Table of Contents
@@ -155,5 +153,3 @@ if (!clipboardContent || !clipboardContent.startsWith("http")) {
 ```
 
 There’s a third og:image script in the group that prompts for a URL and inserts the og:image tag at the bottom of the post. I didn’t fully finish that one since it was mainly used for testing. I much prefer using the clipboard-based script instead.
-
-[Draft's Action Group with all of the scripts](https://directory.getdrafts.com/g/2Vv)
