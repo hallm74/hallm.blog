@@ -1,7 +1,7 @@
 ---
 author: hallm
 pubDatetime: 2024-12-09T20:00:14
-title: How to Train ChatGPT to Write Front Matter
+title: How to Train ChatGPT to Write Frontmatter
 featured: true
 draft: false
 ogImage: ../../assets/images/pexels-tara-winstead-8386440.jpg
