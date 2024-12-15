@@ -3,7 +3,7 @@ author: hallm
 pubDatetime: 2024-12-03T20:00:14
 title: Walmart Bought Vizio - The Verge
 ogImage: https://cdn.vox-cdn.com/thumbor/dncqECPt-iRLiCp4qKe1ayiGJ9s=/0x0:1920x1080/1200x628/filters:focal(960x540:961x541)/cdn.vox-cdn.com/uploads/chorus_asset/file/25772193/vizio_tv_on_wall.jpg
-featured: true
+featured: false
 draft: false
 tags:
     - news

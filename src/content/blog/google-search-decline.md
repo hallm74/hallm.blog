@@ -2,7 +2,7 @@
 author: hallm
 pubDatetime: 2024-12-03T12:06:12
 title: Daring Fireball - Google Search Is Already in Decline
-featured: true
+featured: false
 draft: false
 tags:
     - news

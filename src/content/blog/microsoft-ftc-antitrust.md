@@ -3,7 +3,7 @@ author: hallm
 pubDatetime: 2024-12-03T15:46:42
 title: Microsoft accuses FTC of leaking news of its antitrust investigation - The Verge
 ogImage: https://cdn.vox-cdn.com/thumbor/5X0IGMLrTUsRnyo97W-GRqDZBiA=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24347781/STK095_Microsoft_03.jpg
-featured: true
+featured: false
 draft: false
 tags:
     - news

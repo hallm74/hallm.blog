@@ -3,7 +3,7 @@ author: hallm
 pubDatetime: 2024-12-02T20:01:29
 title: AI Powers 25% of Google’s Code What’s Next for Software Engineers?
 ogImage: https://imageio.forbes.com/specials-images/imageserve/6723b7ac8faf8bf00ddf04cd/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds
-featured: true
+featured: false
 draft: false
 tags:
     - news
