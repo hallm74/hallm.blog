@@ -9,7 +9,6 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SITE, SOCIALS } from "@config";
-import FeedbackForm from '../components/FeedbackForm.astro';
 
 const posts = await getCollection("blog");
 
@@ -123,8 +122,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </LinkButton>
     </div>
   </main>
-
-  <FeedbackForm />
 
   <Footer />
 </Layout>
