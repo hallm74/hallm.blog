@@ -48,7 +48,7 @@ export const GISCUS: GiscusProps = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/hallm74/astropaper",
+    href: "https://github.com/hallm74/hallm.blog",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
