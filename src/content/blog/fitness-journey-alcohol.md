@@ -2,7 +2,7 @@
 author: hallm
 pubDatetime: 2025-08-17T12:00:00
 title: My Fitness Journey – Part 1
-ogImage: ../../assets/images/nobeer.png
+ogImage: ../../assets/images/nobeer.png 
 featured: true
 draft: false
 tags:
