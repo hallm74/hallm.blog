@@ -57,172 +57,208 @@
     "how-to-configure-astropaper-theme.md": {
       "sha256": "a69042cf97fd8c0e6957766a089933919d3ab5c324e3c953584a93398fcba27e",
       "draft": true,
-      "slug": "how-to-configure-astropaper-theme"
+      "slug": "how-to-configure-astropaper-theme",
+      "legacyOgSlug": "how-to-configure-astro-paper-theme"
     },
     "astropaper.md": {
       "sha256": "7bc317bc86229c1e36567d20f0d3a6d9714459a257772afb29138f90cb07d4b6",
       "draft": false,
-      "slug": "astropaper"
+      "slug": "astropaper",
+      "legacyOgSlug": "astropaper-template"
     },
     "usregulatorsgooglechrome.md": {
       "sha256": "fc4236f41fdc9e74217493a2c12926e1955687bbe30283511cd8975b9cbf0183",
       "draft": false,
-      "slug": "us-regulators-google-chrome"
+      "slug": "us-regulators-google-chrome",
+      "legacyOgSlug": "should-google-be-forced-to-sell-chrome"
     },
     "microsoft-ftc-antitrust.md": {
       "sha256": "dd1af2d7c0d3a1f61d7aa8f5e396ca8ae3007fc23fc0782218ff9f699c519ce1",
       "draft": false,
-      "slug": "microsoft-ftc-antitrust"
+      "slug": "microsoft-ftc-antitrust",
+      "legacyOgSlug": "microsoft-accuses-ftc-of-leaking-news-of-its-antitrust-investigation-the-verge"
     },
     "drafts-with-astro.md": {
       "sha256": "9b94878e95d9cf8f5367b76f5ea2150b9eb2e90de63cc2991a09bac3a8ce95de",
       "draft": false,
-      "slug": "drafts-with-astro"
+      "slug": "drafts-with-astro",
+      "legacyOgSlug": "going-cms-less-with-astro-drafts-and-scripts"
     },
     "fitness-phase-2-baby-steps.md": {
       "sha256": "1df494101a24a84ef0d0408d58d6e7b9850f671633df0740931fd52e92bd6bfe",
       "draft": false,
-      "slug": "fitness-phase-2-baby-steps"
+      "slug": "fitness-phase-2-baby-steps",
+      "legacyOgSlug": "phase-2-take-baby-steps"
     },
     "astropaper-adding-giscus-comments.md": {
       "sha256": "2a1ff6267a804b03788b36eae00a9accb3f48d6c87d98f1f4bda82f5369a3e56",
       "draft": false,
-      "slug": "astropaper-adding-giscus-comments"
+      "slug": "astropaper-adding-giscus-comments",
+      "legacyOgSlug": "how-to-integrate-giscus-comments-into-astro-paper"
     },
     "outlook-outage.md": {
       "sha256": "8db962e82b34d2b3b327547cadde1a14438c38f060c8fdf6c53a56775da57a9f",
       "draft": false,
-      "slug": "outlook-outage"
+      "slug": "outlook-outage",
+      "legacyOgSlug": "is-outlook-down-thousands-of-microsoft-365-users-report-outage-issues-ap-news"
     },
     "how-to-add-latex-equations-in-blog-posts.md": {
       "sha256": "4a4934d80c850f84e09f6ee29f59cc89971d70e60bf3a93d5f16b6f7f3cef1c6",
       "draft": true,
-      "slug": "how-to-add-latex-equations-in-blog-posts"
+      "slug": "how-to-add-latex-equations-in-blog-posts",
+      "legacyOgSlug": "adding-la-te-x-equations-in-astro-paper-blog-posts"
     },
     "google-search-decline.md": {
-      "sha256": "6962c9fdd01ff9e6fe04a097a0113dea18bc71200074779cfbeedc6dab30694e",
+      "sha256": "20d35e0b41f086ecd5071e1bfddd6a6792604cb5c647d7596dfd9321a397059e",
       "draft": false,
-      "slug": "google-search-decline"
+      "slug": "google-search-decline",
+      "originalSha256": "6962c9fdd01ff9e6fe04a097a0113dea18bc71200074779cfbeedc6dab30694e",
+      "migrationCorrection": "Correct existing internal link typo: ../us-regulators-google-chromee -> ../us-regulators-google-chrome/",
+      "legacyOgSlug": "daring-fireball-google-search-is-already-in-decline"
     },
     "fbi-cisa-warns-americans-to-use-encrypted-messaging.md": {
       "sha256": "14f2cdd7383c0d6fffde07541be4c4ee340c78fa93b36dd4e62413895a4cd166",
       "draft": false,
-      "slug": "fbi-cisa-warns-americans-to-use-encrypted-messaging"
+      "slug": "fbi-cisa-warns-americans-to-use-encrypted-messaging",
+      "legacyOgSlug": "the-fb-is-double-standard-on-apple-and-encrypted-messaging"
     },
     "example-draft-post.md": {
       "sha256": "45d723b8867ea93959be7a303885a2da0d5b9f4175229eb393379aab39772bb5",
       "draft": true,
-      "slug": "example-draft-post"
+      "slug": "example-draft-post",
+      "legacyOgSlug": "example-draft-post"
     },
     "fitness-journey-alcohol.md": {
       "sha256": "22d46453aad9a08d5e13d973d927b42697839c9211e5f92c741efc64f65058a5",
       "draft": false,
-      "slug": "fitness-journey-alcohol"
+      "slug": "fitness-journey-alcohol",
+      "legacyOgSlug": "my-fitness-journey-part-1"
     },
     "cranberry-sauce-grand-marnier.md": {
       "sha256": "eee2e08c8cbf5f8b34255fa7c041c41926e81350a7594e285f749ad3ee835692",
       "draft": false,
-      "slug": "cranberry-sauce-grand-marnier"
+      "slug": "cranberry-sauce-grand-marnier",
+      "legacyOgSlug": "cranberry-sauce-with-grand-marnier"
     },
     "astro-paper-2.md": {
       "sha256": "eb4bb997121162a707c9d151c114d6b0e7b0fea0a44e39864f6d239cceee5c66",
       "draft": true,
-      "slug": "astro-paper-2"
+      "slug": "astro-paper-2",
+      "legacyOgSlug": "astro-paper-2-0"
     },
     "walmart-bought-vizio.md": {
       "sha256": "712f58b5031c9dca2370aa6aa79b2996a5f097a7e7ccc8ecdb507b45d7a7731a",
       "draft": false,
-      "slug": "walmart-bought-vizio"
+      "slug": "walmart-bought-vizio",
+      "legacyOgSlug": "walmart-bought-vizio-the-verge"
     },
     "astro-paper-3.md": {
       "sha256": "b2893e87c2e2a14aff83854fe93300bbb1e998b0e928bffdee186761801c9cef",
       "draft": true,
-      "slug": "astro-paper-v3"
+      "slug": "astro-paper-v3",
+      "legacyOgSlug": "astro-paper-3-0"
     },
     "training-chatgpt-to-write-frontmatter.md": {
       "sha256": "c1dcec5d7555eb3806324406dd42c7d37526738a0dfa2703464898c4ae7b61bb",
       "draft": false,
-      "slug": "training-chatgpt-to-write-frontmatter"
+      "slug": "training-chatgpt-to-write-frontmatter",
+      "legacyOgSlug": "how-to-train-chat-gpt-to-write-frontmatter"
     },
     "astroinstallation.md": {
       "sha256": "43a63c8822f04a2ba816aa8d90b89858efa511e9db2ddb54aab0be081d2e8f14",
       "draft": false,
-      "slug": "astroinstallation"
+      "slug": "astroinstallation",
+      "legacyOgSlug": "astro-installation-and-initial-setup"
     },
     "terminal-development.md": {
       "sha256": "c8526a5604ba8a267921a3a1d34efe47f59f1d0db55c014c71304d7363e65778",
       "draft": true,
-      "slug": "how-do-i-develop-my-terminal-portfolio-website-with-react"
+      "slug": "how-do-i-develop-my-terminal-portfolio-website-with-react",
+      "legacyOgSlug": "how-do-i-develop-my-terminal-portfolio-website-with-react"
     },
     "granny-scams-scammers.md": {
       "sha256": "0a36ab90d25b8e896a35aa02f15d252ab5ae6cca3cc092d1db23a86ec0a37e43",
       "draft": false,
-      "slug": "granny-scams-scammers"
+      "slug": "granny-scams-scammers",
+      "legacyOgSlug": "an-a-i-granny-is-phone-scammers-worst-nightmare-the-new-york-times"
     },
     "apple-airpods-max.md": {
       "sha256": "fb96b7cc044eb8734665412631e49feb0ae46f7da9f486d444040ddab87f5f2e",
       "draft": false,
-      "slug": "apple-airpods-max"
+      "slug": "apple-airpods-max",
+      "legacyOgSlug": "apple-has-no-meaningful-air-pods-max-plans-after-usb-c-refresh"
     },
     "blog-template.md": {
       "sha256": "5d52af2bb31a0a3e1c267e8147903b153251f95395868e70c650d2ad3b8431c3",
       "draft": true,
-      "slug": "blog-template"
+      "slug": "blog-template",
+      "legacyOgSlug": "blog-template"
     },
     "adding-new-post.md": {
       "sha256": "c31ab6b3bcafd6e7c58c7e10433acdc4bd3f3de98a7aeed697b1848f9ee6c4d0",
       "draft": true,
-      "slug": "adding-new-posts-in-astropaper-theme"
+      "slug": "adding-new-posts-in-astropaper-theme",
+      "legacyOgSlug": "adding-new-posts-in-astro-paper-theme"
     },
     "ai-googles-code-forbes.md": {
       "sha256": "9a7a5447c144e7cf803d236d1e5327fe0eeaf2930f10218c29ab8b9bfa810326",
       "draft": false,
-      "slug": "ai-googles-code-forbes"
+      "slug": "ai-googles-code-forbes",
+      "legacyOgSlug": "ai-powers-25-of-googles-code-whats-next-for-software-engineers"
     },
     "how-to-add-a-new-social-icon.md": {
       "sha256": "dc0d5d3acf99b53b8de027824c33faab0c394214f44c8d3ea13d8b2e8595c1ee",
       "draft": true,
-      "slug": "how-to-add-a-new-social-icon"
+      "slug": "how-to-add-a-new-social-icon",
+      "legacyOgSlug": "how-to-add-a-new-social-icon-to-astro-paper"
     },
     "adding-bluesky-astropaper.md": {
       "sha256": "d04d52d2205fb1773f328db6a418bb249326c512770908c79058eb1e1a830948",
       "draft": false,
-      "slug": "adding-bluesky-astropaper"
+      "slug": "adding-bluesky-astropaper",
+      "legacyOgSlug": "adding-bluesky-icon-to-my-astro-blog"
     },
     "how-to-add-an-estimated-reading-time.md": {
       "sha256": "ae1f6e449b73f511195039182db00243217506070a802da2cb7a24d804e40cd7",
       "draft": true,
-      "slug": "how-to-add-estimated-reading-time"
+      "slug": "how-to-add-estimated-reading-time",
+      "legacyOgSlug": "how-to-add-an-estimated-reading-time-in-astro-paper"
     },
     "astro-paper-4.md": {
       "sha256": "0b7774b39d1708ef5fb12217e7156b7042790766c0ddd1c726c19ccd3dc200b6",
       "draft": true,
-      "slug": "astro-paper-v4"
+      "slug": "astro-paper-v4",
+      "legacyOgSlug": "astro-paper-4-0"
     },
     "setting-dates-via-git-hooks.md": {
       "sha256": "6309ba0ed3eb24f592e72bf1bb46577203f5454efdb8ebe0d441ef3155a7ded8",
       "draft": true,
-      "slug": "setting-dates-via-git-hooks"
+      "slug": "setting-dates-via-git-hooks",
+      "legacyOgSlug": "how-to-use-git-hooks-to-set-created-and-modified-dates"
     },
     "lentil-curry.md": {
       "sha256": "0aacf90665838d261e6a6ebce5de46f423f94cc464e1443260623bf2e781a054",
       "draft": false,
-      "slug": "lentil-curry"
+      "slug": "lentil-curry",
+      "legacyOgSlug": "lentil-curry-slow-cooker-recipe"
     },
     "tailwind-typography.md": {
       "sha256": "2f59e2484f2d990bec4bcc47412abc8bf49c2e88c7ebbc99cfedc8ef8d5afa2b",
       "draft": true,
-      "slug": "tailwind-typography"
+      "slug": "tailwind-typography",
+      "legacyOgSlug": "tailwind-typography-plugin"
     },
     "gallo-pinto.md": {
       "sha256": "4efece6055d3b66526c222ada3466b23804274835b3c4c0c658438696816dbe8",
       "draft": false,
-      "slug": "gallo-pinto"
+      "slug": "gallo-pinto",
+      "legacyOgSlug": "cost-ricas-anytime-meal-gallo-pinto"
     },
     "dynamic-og-images.md": {
       "sha256": "8a4f07e80658a90444c688476f3b6868cfd7eb5e9026a1ac6b31065927d9377b",
       "draft": true,
-      "slug": "dynamic-og-image-generation-in-astropaper-blog-posts"
+      "slug": "dynamic-og-image-generation-in-astropaper-blog-posts",
+      "legacyOgSlug": "dynamic-og-image-generation-in-astro-paper-blog-posts"
     }
   },
   "assets": {

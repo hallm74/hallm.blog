@@ -21,6 +21,7 @@ for name, post in manifest['posts'].items():
     html = root / 'dist/posts' / post['slug'] / 'index.html'
     check(html.is_file() != post['draft'], f'Post visibility changed: {name}')
     if post['draft']:
+        check(not (root / 'dist/posts' / (post['legacyOgSlug'] + '.png')).exists(), f'Draft legacy OG exposed: {name}')
         check(not html.parent.joinpath('index.png').exists(), f'Draft OG exposed: {name}')
 for name, digest in manifest['assets'].items():
     check(sha(root / name) == digest, f'Original asset changed: {name}')

@@ -24,7 +24,7 @@ The production build includes type checking, static HTML and Pagefind indexing. 
 - Posts remain in `src/content/blog` to preserve existing Drafts/GitHub authoring paths; the v6 `posts` collection uses the stable glob loader.
 - Existing frontmatter slugs and tag URLs are retained; blank legacy descriptions remain supported without rewriting articles.
 - IBM Plex Mono, light/dark colors, custom default OG image and all original images are retained.
-- Giscus: `src/components/Comments.astro`. Keep pathname mapping, repository and category unchanged to preserve discussions. Theme updates use the root `data-theme` attribute; client navigation cleans up old observers.
+- Giscus: `src/components/Comments.astro`. Keep pathname mapping, repository and category unchanged to preserve discussions. Theme updates use the root `data-theme` attribute, resync after lazy loading, and clean up on navigation. Preview builds show a link to the published discussion instead of a writable live widget.
 - Drafts are excluded from routes, search, RSS, sitemap and dynamic OG output.
 
 ## Hosting and review
@@ -38,3 +38,16 @@ Before any production release, review mobile/desktop and both themes, route/cont
 Pre-upgrade source: `fc475ae6b44ec744d80391c39af59cf4905e269d`, recorded as local tag `rollback/pre-astropaper-6.1.0-20261017`.
 
 Previous production deploy: `693074a73a07720008893dbb` ([immutable permalink](https://693074a73a07720008893dbb--hallm.netlify.app)). Restore that deployment through Netlify if necessary and revert the upgrade in Git before the next automatic build. Do not change repository or hosting access.
+
+## Social image previews and validation
+
+Satori renders headline cards as SVG; Sharp rasterizes 1200×630 PNGs. Posts with an explicit `ogImage` keep that image. Five current published posts use generated headline cards.
+
+Canonical content URLs remain on `https://hallm.blog/`. Preview Open Graph/Twitter image and page URLs must use the preview deployment, including hashed local images. Set `PUBLIC_PREVIEW=true` and `PUBLIC_ASSET_ORIGIN=https://your-preview.netlify.app` for manual preview builds; Netlify builds can use `DEPLOY_PRIME_URL` / `DEPLOY_URL`. A preview build without a preview URL fails instead of silently pointing at production.
+
+```sh
+python3 scripts/check-links.py --preview-origin https://your-preview.netlify.app
+python3 scripts/check-social-metadata.py --origin https://your-preview.netlify.app
+```
+
+Preview noindex and robots restrictions remain enabled. Direct crawler-style HTTP requests can verify image delivery, but actual social services may obey robots restrictions, use canonical URLs, or cache prior cards. These checks do not post links to third-party services or guarantee a platform's live unfurl behavior.

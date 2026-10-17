@@ -90,9 +90,7 @@ if (!ogImageUrl && config.features.dynamicOgImage) {
   ogImageUrl = `${postUrl}/index.png`;
 }
 
-const ogImage = ogImageUrl
-  ? new URL(ogImageUrl, Astro.url.origin).href
-  : undefined;
+const ogImage = ogImageUrl;
 ---
 
 <PostLayout

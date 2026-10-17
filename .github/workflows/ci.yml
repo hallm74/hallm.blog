@@ -39,3 +39,6 @@ jobs:
 
       - name: "🚀 Build the project"
         run: npm run build
+
+      - name: Verify internal links and social metadata
+        run: npm run test:links && npm run test:social && npm run test:theme

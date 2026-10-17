@@ -14,7 +14,11 @@
     "format:check": "prettier --check .",
     "format": "prettier --write .",
     "lint": "eslint .",
-    "test:upgrade": "python3 scripts/verify-upgrade.py"
+    "test:upgrade": "python3 scripts/verify-upgrade.py",
+    "test:links": "python3 scripts/check-links.py",
+    "test:social": "python3 scripts/check-social-metadata.py",
+    "prebuild": "node -e \"require('node:fs').rmSync('public/pagefind', {recursive:true, force:true})\"",
+    "test:theme": "node scripts/test-theme-lifecycle.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^6.0.1",

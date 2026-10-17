@@ -66,6 +66,7 @@ document.addEventListener("astro:before-swap", event => {
 window
   .matchMedia("(prefers-color-scheme: dark)")
   .addEventListener("change", ({ matches }) => {
+    if (localStorage.getItem(THEME_KEY)) return;
     themeValue = matches ? DARK : LIGHT;
-    persist();
+    reflect();
   });

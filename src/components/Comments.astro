@@ -1,10 +1,46 @@
+---
+import config from "@/config";
+const preview = import.meta.env.PUBLIC_PREVIEW === "true";
+const publishedArticle = new URL(Astro.url.pathname, config.site.url).href;
+---
+
 <section class="mt-8" aria-label="Comments" data-pagefind-ignore>
-  <hallm-comments></hallm-comments>
+  {
+    preview ? (
+      <p class="text-muted-foreground text-sm">
+        Comments connect to live GitHub discussions. To read or reply, visit the{" "}
+        <a href={publishedArticle}>published article</a>.
+      </p>
+    ) : (
+      <hallm-comments />
+    )
+  }
 </section>
 
 <script>
   class HallmComments extends HTMLElement {
     private themeObserver?: MutationObserver;
+    private widgetObserver?: MutationObserver;
+    private frame?: HTMLIFrameElement;
+    private syncTheme = () => {
+      const theme =
+        document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+      // Also update attributes before the async Giscus client has read them.
+      this.querySelector("script")?.setAttribute("data-theme", theme);
+      const frame = this.querySelector<HTMLIFrameElement>(
+        "iframe.giscus-frame"
+      );
+      if (frame && frame !== this.frame) {
+        this.frame?.removeEventListener("load", this.syncTheme);
+        this.frame = frame;
+        frame.addEventListener("load", this.syncTheme);
+      }
+      // Re-send on iframe load, so a theme change during lazy loading is not lost.
+      this.frame?.contentWindow?.postMessage(
+        { giscus: { setConfig: { theme } } },
+        "https://giscus.app"
+      );
+    };
     connectedCallback() {
       if (this.childElementCount) return;
       const script = document.createElement("script");
@@ -28,16 +64,10 @@
       for (const [key, value] of Object.entries(attributes))
         script.setAttribute(`data-${key}`, value);
       this.appendChild(script);
-      this.themeObserver = new MutationObserver(() => {
-        const theme =
-          document.documentElement.dataset.theme === "dark" ? "dark" : "light";
-        this.querySelector<HTMLIFrameElement>(
-          "iframe.giscus-frame"
-        )?.contentWindow?.postMessage(
-          { giscus: { setConfig: { theme } } },
-          "https://giscus.app"
-        );
-      });
+      this.themeObserver = new MutationObserver(this.syncTheme);
+      this.widgetObserver = new MutationObserver(this.syncTheme);
+      this.widgetObserver.observe(this, { childList: true, subtree: true });
+      this.syncTheme();
       this.themeObserver.observe(document.documentElement, {
         attributes: true,
         attributeFilter: ["data-theme"],
@@ -45,6 +75,9 @@
     }
     disconnectedCallback() {
       this.themeObserver?.disconnect();
+      this.widgetObserver?.disconnect();
+      this.frame?.removeEventListener("load", this.syncTheme);
+      this.frame = undefined;
     }
   }
   if (!customElements.get("hallm-comments"))
