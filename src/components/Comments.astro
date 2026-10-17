@@ -1,0 +1,52 @@
+<section class="mt-8" aria-label="Comments" data-pagefind-ignore>
+  <hallm-comments></hallm-comments>
+</section>
+
+<script>
+  class HallmComments extends HTMLElement {
+    private themeObserver?: MutationObserver;
+    connectedCallback() {
+      if (this.childElementCount) return;
+      const script = document.createElement("script");
+      script.src = "https://giscus.app/client.js";
+      script.async = true;
+      script.crossOrigin = "anonymous";
+      const attributes = {
+        repo: "hallm74/hallm.blog",
+        "repo-id": "R_kgDONSWOAA",
+        category: "General",
+        "category-id": "DIC_kwDONSWOAM4ClPpw",
+        mapping: "pathname",
+        "reactions-enabled": "1",
+        "emit-metadata": "0",
+        "input-position": "bottom",
+        theme:
+          document.documentElement.dataset.theme === "dark" ? "dark" : "light",
+        lang: "en",
+        loading: "lazy",
+      };
+      for (const [key, value] of Object.entries(attributes))
+        script.setAttribute(`data-${key}`, value);
+      this.appendChild(script);
+      this.themeObserver = new MutationObserver(() => {
+        const theme =
+          document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+        this.querySelector<HTMLIFrameElement>(
+          "iframe.giscus-frame"
+        )?.contentWindow?.postMessage(
+          { giscus: { setConfig: { theme } } },
+          "https://giscus.app"
+        );
+      });
+      this.themeObserver.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["data-theme"],
+      });
+    }
+    disconnectedCallback() {
+      this.themeObserver?.disconnect();
+    }
+  }
+  if (!customElements.get("hallm-comments"))
+    customElements.define("hallm-comments", HallmComments);
+</script>

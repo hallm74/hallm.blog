@@ -6,7 +6,7 @@ featured: true
 draft: false
 ogImage: https://i0.wp.com/mymillennialkitchen.com/wp-content/uploads/2018/11/Cranberry-Sauce-Grand-Marnier-11.jpg?w=1400&ssl=1
 tags:
-	- recipes
+  - recipes
 description: One of our favorite cranberry sauces, and the closest I’ve come to replicating a cherished family recipe.
 ---
 For the past two years, this has been my go-to cranberry sauce recipe because it’s easy to make in a slow cooker with minimal effort. I’ve linked the original source below and doubled the recipe since that’s the amount I usually prepare.

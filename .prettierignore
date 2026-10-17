@@ -1,13 +1,7 @@
-# Ignore everything
-/*
-
-# Except these files & folders
-!/src
-!/public
-!/.github
-!tsconfig.json
-!astro.config.ts
-!package.json
-!.prettierrc
-!eslint.config.mjs
-!README.md
+node_modules/
+dist/
+.astro/
+public/
+src/content/
+src/assets/images/
+package-lock.json

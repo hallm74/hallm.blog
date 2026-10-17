@@ -77,13 +77,13 @@ Return only the final Markdown.
 - "Generate blog frontmatter from title '...' and tags [a,b], set draft true."
 - "Create a section outline with H2/H3 for a post about '...'."
 - "Rewrite this paragraph to be shorter and scan-friendly."
-- "Convert this plain text into Markdown lists, code blocks, and a quote." 
+- "Convert this plain text into Markdown lists, code blocks, and a quote."
 
 ## Examples
 
 ### Example: Fitness Post Skeleton
 
-```
+````
 ---
 author: hallm
 pubDatetime: 2025-12-02T12:00:00
@@ -115,7 +115,8 @@ Quality sleep drives progress. **Protect your routine**.
 
 ```bash
 echo "Track it to improve it"
-```
+````
+
 ```
 
 ## Notes
@@ -123,3 +124,4 @@ echo "Track it to improve it"
 - This file being in `.github/` doesn't change Copilot's model behavior. It helps keep prompts handy and discoverable.
 - Point Copilot Chat to this file or to `src/content/blog/blog-template.md` when asking for content to ensure it uses your conventions.
 - For dynamic OG generation, see `pages/og.png.ts` and `utils/generateOgImages.tsx`.
+```
