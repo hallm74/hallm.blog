@@ -51,6 +51,11 @@ export default defineAstroPaperConfig({
       url: "https://t.me/hallm74",
     },
     {
+      name: "signal",
+      url: "https://signal.me/#eu/5AL-U8Od6mt1TGIb-qf1i3c3jpcHFgpd89dzNMX7aXchLfO5cbFPU5bbk3QjjS1t",
+      linkTitle: "Contact hallm on Signal",
+    },
+    {
       name: "mastodon",
       url: "https://techhub.social/@hallm",
     },
